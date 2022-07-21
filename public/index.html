@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>React App</title>
+</head>
+
+<body>
+  <div class="root">
+    <div class="start-screen">
+      <img src="./assets/img/logo-big.png" alt="logo" class="logo-img">
+      <h1 class="start-title">ZapRecall</h1>
+      <div class="start-button">
+        <p>Iniciar Recall!</p>
+      </div>
+    </div>
+    <section class="main">
+      <div class="title">
+        <img src="./assets/img/logo-small.png" alt="logo small" class="logo-img-small">
+        <p>ZapRecall</p>
+      </div>
+
+      <div class="question-container">
+        <div class="question">
+          <p>Pergunta 1</p>
+          <img src="./assets/img/Vector.png" alt="vector" class="vector">
+        </div>
+      </div>
+
+      <div class="question-reveal">
+        <div>
+          <p>O que é JSX?</p>
+          <img src="./assets/img/setinha.png" alt="setinha" class="setinha">
+        </div>
+      </div>
+
+      <div class="question-reveal">
+        <div>
+          <p>O que é JSX?</p>
+          <div class="answer-options">
+            <p>Não lembrei</p>
+            <p>Quase não lembrei</p>
+            <p>Zap!</p>
+          </p>
+        </p>
+      </div>
+    </section>
+
+  </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
 </html>
